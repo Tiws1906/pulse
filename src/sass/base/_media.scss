@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }   
+    }
+}
+@media (max-width:991px) {
+    .promo {
+        &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    }
+}
+@media (max-width:767px) {
+    .header {
+        padding: 0 10px 0 10px;
+    }
+    .advantages {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
+        &__item {
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 625px) {
+    .header {
+        &_logo {
+           width: 100px;
+           img {
+               width: 100%;
+           }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .button {
+        width: 125px;
+        font-size: 12px;
+        &_main {
+            width: 300px;
+            font-size: 16px;
+        }
+    }
+}
+@media(max-width: 576px) {
+    .header {
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+}
